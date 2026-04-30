@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.borc.takip.app-mergeDebugResources-39:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ilhan\\.gradle\\caches\\9.4.1\\transforms\\5c02b38a851f8a35aa75dcd48c3b4a0e\\transformed\\material-1.11.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,61",
+                        "endOffsets": "105,167"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.borc.takip"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="34" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:4:5-71
+11-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:4:22-68
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:5:5-67
+12-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:5:22-64
+13
+14    <permission
+14-->[androidx.core:core:1.12.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\36af7efc69c16863ff0d158cc83cacbb\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.borc.takip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.12.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\36af7efc69c16863ff0d158cc83cacbb\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.12.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\36af7efc69c16863ff0d158cc83cacbb\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.borc.takip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.12.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\36af7efc69c16863ff0d158cc83cacbb\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.12.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\36af7efc69c16863ff0d158cc83cacbb\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:7:5-43:19
+21        android:allowBackup="false"
+21-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:8:9-36
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.12.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\36af7efc69c16863ff0d158cc83cacbb\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:9:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+25-->INJECTED
+26        android:fullBackupContent="@xml/backup_rules"
+26-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:10:9-54
+27        android:icon="@drawable/ic_launcher"
+27-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:12:9-45
+28        android:label="@string/app_name"
+28-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:13:9-41
+29        android:networkSecurityConfig="@xml/network_security_config"
+29-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:11:9-69
+30        android:roundIcon="@drawable/ic_launcher_round"
+30-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:14:9-56
+31        android:supportsRtl="true"
+31-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:15:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.BorcTakip" >
+33-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:16:9-47
+34        <activity
+34-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:18:9-26:20
+35            android:name="com.borc.takip.ui.main.MainActivity"
+35-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:19:13-49
+36            android:exported="true"
+36-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:20:13-36
+37            android:windowSoftInputMode="adjustResize" >
+37-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:21:13-55
+38            <intent-filter>
+38-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:22:13-25:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:23:17-69
+39-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:23:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:24:17-77
+41-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:24:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:28:9-31:66
+45            android:name="com.borc.takip.ui.detail.PersonDetailActivity"
+45-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:29:13-59
+46            android:exported="false"
+46-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:30:13-37
+47            android:parentActivityName="com.borc.takip.ui.main.MainActivity" />
+47-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:31:13-63
+48
+49        <provider
+49-->INJECTED
+50            android:name="androidx.core.content.FileProvider"
+50-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:34:13-62
+51            android:authorities="com.borc.takip.fileprovider"
+51-->INJECTED
+52            android:exported="false"
+52-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:36:13-37
+53            android:grantUriPermissions="true" >
+53-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:37:13-47
+54            <meta-data
+54-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:38:13-40:54
+55                android:name="android.support.FILE_PROVIDER_PATHS"
+55-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:39:17-67
+56                android:resource="@xml/file_paths" />
+56-->D:\Claude\BorcTakip\app\src\main\AndroidManifest.xml:40:17-51
+57        </provider>
+58        <provider
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\9f60b2f93dadfdc1f307213473775ed8\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\9f60b2f93dadfdc1f307213473775ed8\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+60            android:authorities="com.borc.takip.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\9f60b2f93dadfdc1f307213473775ed8\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\9f60b2f93dadfdc1f307213473775ed8\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\9f60b2f93dadfdc1f307213473775ed8\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\9f60b2f93dadfdc1f307213473775ed8\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\9f60b2f93dadfdc1f307213473775ed8\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\be4939add8b5e32f8bd30de773ce3f05\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\be4939add8b5e32f8bd30de773ce3f05\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\be4939add8b5e32f8bd30de773ce3f05\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+70                android:value="androidx.startup" />
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+71        </provider>
+72
+73        <service
+73-->[androidx.room:room-runtime-android:2.8.4] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\5267718aa30eb4cd5ff037e4520d259c\transformed\room-runtime\AndroidManifest.xml:24:9-28:63
+74            android:name="androidx.room.MultiInstanceInvalidationService"
+74-->[androidx.room:room-runtime-android:2.8.4] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\5267718aa30eb4cd5ff037e4520d259c\transformed\room-runtime\AndroidManifest.xml:25:13-74
+75            android:directBootAware="true"
+75-->[androidx.room:room-runtime-android:2.8.4] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\5267718aa30eb4cd5ff037e4520d259c\transformed\room-runtime\AndroidManifest.xml:26:13-43
+76            android:exported="false" />
+76-->[androidx.room:room-runtime-android:2.8.4] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\5267718aa30eb4cd5ff037e4520d259c\transformed\room-runtime\AndroidManifest.xml:27:13-37
+77
+78        <receiver
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+79            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+80            android:directBootAware="false"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+81            android:enabled="true"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+82            android:exported="true"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+83            android:permission="android.permission.DUMP" >
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+85                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+88                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+91                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+94                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ilhan\.gradle\caches\9.4.1\transforms\b605c94a2b6195034296e78b83453d01\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+95            </intent-filter>
+96        </receiver>
+97    </application>
+98
+99</manifest>

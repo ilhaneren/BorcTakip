@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="avatar_1">#1E88E5</color>
+    <color name="avatar_2">#8E24AA</color>
+    <color name="avatar_3">#00897B</color>
+    <color name="avatar_4">#F4511E</color>
+    <color name="avatar_5">#546E7A</color>
+    <color name="avatar_6">#D81B60</color>
+    <color name="avatar_bg">#1E88E5</color>
+    <color name="background">#121212</color>
+    <color name="colorAccent">#FFAB40</color>
+    <color name="colorPrimary">#90CAF9</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="color_credit">#A5D6A7</color>
+    <color name="color_credit_bg">#003300</color>
+    <color name="color_debt">#EF9A9A</color>
+    <color name="color_debt_bg">#4A0000</color>
+    <color name="color_neutral">#BDBDBD</color>
+    <color name="color_neutral_bg">#2C2C2C</color>
+    <color name="color_voice_bg">#0D47A1</color>
+    <color name="text_primary">#EEEEEE</color>
+    <color name="white">#FFFFFF</color>
+</resources>

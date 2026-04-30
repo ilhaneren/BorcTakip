@@ -1,0 +1,9 @@
+com.borc.takip.app-pngs-0 D:\Claude\BorcTakip\app\build\generated\res\pngs\debug
+com.borc.takip.app-resValues-1 D:\Claude\BorcTakip\app\build\generated\res\resValues\debug
+com.borc.takip.app-updated_navigation_xml-2 D:\Claude\BorcTakip\app\build\generated\updated_navigation_xml\debug
+com.borc.takip.app-packageDebugResources-3 D:\Claude\BorcTakip\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.borc.takip.app-packageDebugResources-4 D:\Claude\BorcTakip\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.borc.takip.app-debug-5 D:\Claude\BorcTakip\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.borc.takip.app-debug-6 D:\Claude\BorcTakip\app\src\debug\res
+com.borc.takip.app-main-7 D:\Claude\BorcTakip\app\src\main\res
+gradleHome-0 C:\Users\ilhan\.gradle
