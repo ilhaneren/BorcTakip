@@ -1,3 +1,0 @@
-com.borc.takip.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

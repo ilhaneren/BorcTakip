@@ -1,7 +1,0 @@
-com.borc.takip.test.app-annotation-experimental-1.3.0-0 C:\Users\ilhan\.gradle\caches\9.0.0\transforms\5ba8510828f924b4f39ac31df57fcc34\transformed\annotation-experimental-1.3.0\res
-com.borc.takip.test.app-core-1.5.0-1 C:\Users\ilhan\.gradle\caches\9.0.0\transforms\94b843336e45f8e82d71cf02243ad3c6\transformed\core-1.5.0\res
-com.borc.takip.test.app-androidTest-2 D:\Claude\BorcTakip\app\build\generated\res\resValues\androidTest\debug
-com.borc.takip.test.app-updated_navigation_xml-3 D:\Claude\BorcTakip\app\build\generated\updated_navigation_xml\debugAndroidTest
-com.borc.takip.test.app-mergeDebugAndroidTestResources-4 D:\Claude\BorcTakip\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.borc.takip.test.app-mergeDebugAndroidTestResources-5 D:\Claude\BorcTakip\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.borc.takip.test.app-debugAndroidTest-6 D:\Claude\BorcTakip\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
